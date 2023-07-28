@@ -79,4 +79,8 @@ body {
     flex-direction: column;
     margin: 20px;
   }
+
+  .imageContainer {
+    min-width: 100%;
+  }
 }
