@@ -20,6 +20,10 @@ nav > ul > li {
   margin: 0 5px 0 5px;
 }
 
+li:hover {
+  color: aquamarine;
+}
+
 h1 {
   color: #5247d4;
   padding-top: 50px;
