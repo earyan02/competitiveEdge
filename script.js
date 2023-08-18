@@ -11,7 +11,7 @@ function myFunction() {
     if (buttonText == 'click for more') {
         buttonText === 'click for less';
     } else {
-        'click for more';
+        buttonText = 'click for more';
     }
 
     
