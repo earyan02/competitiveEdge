@@ -1,18 +1,19 @@
 function myFunction() {
-    let infoDiv = document.getElementById("moreInfo");
+    const infoDiv = document.getElementById("moreInfo");
     if (infoDiv.style.display === "none") {
       infoDiv.style.display = "block";
     } else {
       infoDiv.style.display = "none";
     }
+}
 
-    let buttonText = document.getElementById("buttonText");
+    function moreLess() {
 
-    if (buttonText == 'click for more') {
-        buttonText === 'click for less';
+    let btnText = document.querySelectorAll('#btn').innerText
+
+    if (btnText == 'click for more') {
+        btnText == 'click for less';
     } else {
-        buttonText = 'click for more';
+        btnText = 'click for more';
     }
-
-    
 }
